@@ -9,14 +9,14 @@ Sub Ticker()
         ws.Range("m1").Value = "Total Stock Volume"
         
         lastRow = ws.Cells(Rows.Count, 1).End(xlUp).Row
-        Dim Ticker        As String
-        Dim opening   As Double
-        Dim closing       As Double
+        Dim Ticker      As String
+        Dim opening     As Double
+        Dim closing     As Double
         Dim volume      As Integer
-        Dim Increase As Double
-        Dim Decrease As Double
-        Dim beginning As Long
-        Dim ending  As Long
+        Dim Increase    As Double
+        Dim Decrease    As Double
+        Dim beginning   As Long
+        Dim ending      As Long
         
         vol = 0
         beginning = 99999999
